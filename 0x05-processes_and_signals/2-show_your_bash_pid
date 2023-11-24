@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Lists all processes with 'bash'
-# shellcheck disable=SC2009
-ps auxf | grep bash

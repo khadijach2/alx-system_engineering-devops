@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# uses pgreg
-pgrep -l bash
