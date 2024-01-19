@@ -1,8 +1,5 @@
-# creates a file in /tmp
+# install puppet-lint -v 2.5.0
 
-file { '/tmp/school':
-  content =>'I love Puppet',
-  mode    => '0744',
-  owner   => 'www-data',
-  group   => 'www-data',
+exec { 'puppet-lint':
+  command => '/usr/bin/apt-get -y install puppet-lint -v 2.5.0',
 }
